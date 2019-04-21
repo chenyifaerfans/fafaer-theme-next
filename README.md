@@ -1,1 +1,1 @@
-# myblog-theme-next
+# fafaer-theme-next
