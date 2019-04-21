@@ -199,6 +199,7 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
+  微博超话: https://s.weibo.com/weibo?q=%23%E9%99%88%E4%B8%80%E5%8F%91%E5%84%BF%23 || weibo
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
@@ -759,7 +760,7 @@ google_analytics:
   localhost_ignored: true
 
 # Google Adsense
-google_adsense: ca-pub-3943836014370168
+google_adsense: # ca-pub-3943836014370168
 
 # CNZZ count
 #cnzz_siteid:
