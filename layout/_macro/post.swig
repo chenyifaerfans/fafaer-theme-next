@@ -282,15 +282,14 @@
 
       {# Gallery support #}
       {% if post.videos and post.videos.length %}
-        <div class="post-video" itemscope itemtype="http://schema.org/ImageGallery">
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
         {% set COLUMN_NUMBER = 3 %}
         {% for video in post.videos %}
-          {% if loop.index0 % COLUMN_NUMBER === 0 %}<div class="post-video-row">{% endif %}
-          <a class="post-video-img fancybox" data-fancybox="video" href="{{ url_for(video.video) }}"
-             itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
-            <i class="post-video-icon fa fa-play-circle-o fa-2x" />
-            <img src="{{ url_for(video.cover) }}" itemprop="contentUrl"/>
-          </a>
+          {% if loop.index0 % COLUMN_NUMBER === 0 %}<div class="post-gallery-row">{% endif %}
+          <video controls id="myVideo" controlsList="nodownload">
+            <source src="{{ url_for(video.video) }}" type="video/mp4">
+            Your browser doesn't support HTML5 video tag.
+          </video>
           {% if loop.index0 % COLUMN_NUMBER === 2 %}</div>{% endif %}
         {% endfor %}
 
