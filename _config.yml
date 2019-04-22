@@ -1217,6 +1217,11 @@ aplayer:
   css: https://cdn.chenyifaer.com/css/APlayer.min.css
   meeting: https://cdn.chenyifaer.com/common/Meting.min.js
 
+# daovoice
+daovoice:
+  enable: true
+  app_id: "61185e26"
+
 github:
   enable: true
   username: chenyifaerfans
