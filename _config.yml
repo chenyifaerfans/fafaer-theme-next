@@ -161,7 +161,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  about: /about/ || user
+#  about: /about/ || user
 #  photo: /photos/ || photo
 #  video: /videos/ || film
   #schedule: /schedule/ || calendar
