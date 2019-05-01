@@ -1219,7 +1219,7 @@ aplayer:
 
 # daovoice
 daovoice:
-  enable: true
+  enable: false
   app_id: "61185e26"
 
 github:
