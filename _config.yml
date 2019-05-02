@@ -1223,7 +1223,7 @@ daovoice:
   app_id: "61185e26"
 
 github:
-  enable: true
+  enable: false
   username: chenyifaerfans
   position: right #  right, left
   shape: triangle  # triangle, line
