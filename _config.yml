@@ -362,7 +362,7 @@ reward_settings:
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
   enable: true
   animation: true
-  comment: 用于购买OSS资源
+  comment: 购买OSS资源
 
 reward:
   wechatpay: https://cdn.chenyifaer.com/images/wechat.jpg
