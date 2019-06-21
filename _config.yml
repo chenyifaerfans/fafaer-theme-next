@@ -162,6 +162,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   lovestory: /lovestory/ || heart
+  love: /love/ || heartbeat
 #  about: /about/ || user
 #  photo: /photos/ || photo
 #  video: /videos/ || film
