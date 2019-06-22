@@ -161,6 +161,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  tetris: /tetris/ || gamepad
   lovestory: /lovestory/ || heart
   love: /love/ || heartbeat
 #  about: /about/ || user
