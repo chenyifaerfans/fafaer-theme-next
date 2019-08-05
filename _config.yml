@@ -608,7 +608,7 @@ calendar:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: chenyifaer
   count: true
   lazyload: false
