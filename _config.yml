@@ -1236,7 +1236,7 @@ github:
 
 click_style:
   enable: true
-  style: love  # love fireworks
+  style: fireworks  # love fireworks
 
 post_end_tag:
   enabled: true
