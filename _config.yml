@@ -161,6 +161,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  five: /five/ || fire
   tetris: /tetris/ || gamepad
   lovestory: /lovestory/ || heart
   love: /love/ || heartbeat
@@ -226,6 +227,9 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
+  Github: https://github.com/chenyifaerfans
+  Gitee: https://gitee.com/chenyifaerfans
+  Kjxbyz: https://kjxbyz.com
   Loadream: https://67373.loadream.com
 
 # Sidebar Avatar
